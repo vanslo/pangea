@@ -1,0 +1,24 @@
+{
+  "name": "drizzle-vue-box",
+  "version": "0.0.1",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Amal Sudama",
+    "email": "amal@trufflesuite.com",
+    "url": "http://github.com/truffle-box/drizzle-vue-box"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "openzeppelin-contracts": "^4.0.0",
+    "openzeppelin-solidity": "^3.3.0"
+  }
+}
