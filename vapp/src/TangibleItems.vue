@@ -6,7 +6,37 @@
       label="ID"
     />
 
-<!--    
+    <drizzle-contract
+      contractName="TangibleItems"
+      method="_itemIds"
+      label="Item"
+    />
+
+    <drizzle-contract-form
+        contractName="TangibleItems"
+        method="addItem"
+        :placeholders="['Value']"
+      />
+
+    <drizzle-contract-form
+        contractName="TangibleItems"
+        method="getItem"
+        :placeholders="['Value']"
+      />
+
+    <drizzle-contract-form
+        contractName="TangibleItems"
+        method="purchaseItem"
+        :placeholders="['Value']"
+      />
+
+    <drizzle-contract-form
+        contractName="TangibleItems"
+        method="getPayments"
+        :placeholders="['Value']"
+      />
+
+<!--   
     <drizzle-contract
       contractName="TangibleItems"
       method="symbol"
@@ -24,7 +54,6 @@
       method="transfer"
       :placeholders="placeholders"
     /> 
-    
     -->
 
   </div>

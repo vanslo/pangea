@@ -12,12 +12,11 @@
       <SimpleStorage />
     </div>
 
-<!--
+
     <div class="section">
       <h2>TangibleItems</h2>
       <TangibleItems />
     </div>
-    -->
   </div>
 
   <div v-else>Loading app...</div>
@@ -25,13 +24,13 @@
 
 <script>
 import SimpleStorage from './SimpleStorage'
-//import TangibleItems from './TangibleItems'
+import TangibleItems from './TangibleItems'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'app',
   components: {
-    //TangibleItems,
+    TangibleItems,
     SimpleStorage
   },
 

@@ -1,5 +1,5 @@
 import SimpleStorage from './contracts/SimpleStorage.json'
-//import TangibleItems from './contracts/TangibleItems.json'
+import TangibleItems from './contracts/TangibleItems.json'
 
 const options = {
   web3: {
@@ -10,7 +10,7 @@ const options = {
     }
   },
   contracts: [SimpleStorage, 
-    //TangibleItems
+    TangibleItems
   ],
   events: {
     SimpleStorage: ['StorageSet']
