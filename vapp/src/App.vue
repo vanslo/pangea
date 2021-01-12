@@ -3,27 +3,22 @@
     <img alt="Vue logo" src="./assets/logo.png" />
 
     <div class="section">
-      <h2>Show the Accounts</h2>
+      <h2>My Account</h2>
       <drizzle-account units="Ether" :precision="2" />
     </div>
 
-    <div class="section">
-      <h2>Simple Storage</h2>
-      <SimpleStorage />
-    </div>
-
 
     <div class="section">
-      <h2>TangibleItems</h2>
+      <h2>My Items</h2>
       <TangibleItems />
     </div>
+
   </div>
 
   <div v-else>Loading app...</div>
 </template>
 
 <script>
-import SimpleStorage from './SimpleStorage'
 import TangibleItems from './TangibleItems'
 import { mapGetters } from 'vuex'
 
@@ -31,7 +26,6 @@ export default {
   name: 'app',
   components: {
     TangibleItems,
-    SimpleStorage
   },
 
   computed: mapGetters('drizzle', ['isDrizzleInitialized'])

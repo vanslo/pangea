@@ -15,46 +15,28 @@
     <drizzle-contract-form
         contractName="TangibleItems"
         method="addItem"
-        :placeholders="['Value']"
+        :placeholders="['Price']"
       />
 
+<!--
     <drizzle-contract-form
         contractName="TangibleItems"
         method="getItem"
-        :placeholders="['Value']"
+        :placeholders="['Get Item by Item ID']"
       />
 
     <drizzle-contract-form
         contractName="TangibleItems"
         method="purchaseItem"
-        :placeholders="['Value']"
+        :placeholders="['Purchase by Item ID']"
       />
 
     <drizzle-contract-form
         contractName="TangibleItems"
         method="getPayments"
-        :placeholders="['Value']"
+        :placeholders="['Recieve Payment']"
       />
-
-<!--   
-    <drizzle-contract
-      contractName="TangibleItems"
-      method="symbol"
-      label="Symbol"
-    />
-    <drizzle-contract
-      contractName="TangibleItems"
-      method="balanceOf"
-      label="Your Balance"
-      :methodArgs="accounts"
-    />
-
-    <drizzle-contract-form
-      contractName="TangibleItems"
-      method="transfer"
-      :placeholders="placeholders"
-    /> 
-    -->
+-->
 
   </div>
 

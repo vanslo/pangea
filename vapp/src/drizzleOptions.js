@@ -1,4 +1,3 @@
-import SimpleStorage from './contracts/SimpleStorage.json'
 import TangibleItems from './contracts/TangibleItems.json'
 
 const options = {
@@ -9,11 +8,11 @@ const options = {
       url: 'ws://127.0.0.1:9545'
     }
   },
-  contracts: [SimpleStorage, 
+  contracts: [ 
     TangibleItems
   ],
   events: {
-    SimpleStorage: ['StorageSet']
+    //SimpleStorage: ['StorageSet']
   },
   polls: {
     accounts: 15000
