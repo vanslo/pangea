@@ -7,9 +7,15 @@
       <drizzle-account units="Ether" :precision="2" />
     </div>
 
+    <div class="section">
+      <h2>Mint</h2>
+      <h4>Choose Audio Format: </h4>
+      <MintItems />
+    </div>
+
 
     <div class="section">
-      <h2>My Items</h2>
+      <h2>Storefront</h2>
       <TangibleItems />
     </div>
 
@@ -20,12 +26,14 @@
 
 <script>
 import TangibleItems from './TangibleItems'
+import MintItems from './MintItems'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'app',
   components: {
     TangibleItems,
+    MintItems
   },
 
   computed: mapGetters('drizzle', ['isDrizzleInitialized'])

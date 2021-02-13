@@ -17,7 +17,6 @@
         method="addItem"
         :placeholders="['Price']"
     />
-    </br>
     <drizzle-contract-form
         contractName="TangibleItems"
         method="safeTransferFrom"
